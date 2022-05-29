@@ -1,6 +1,6 @@
 {
-  "name": "remix-auth-strategy-template",
-  "version": "0.0.0",
+  "name": "remix-auth-twitch",
+  "version": "1.0.0",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
@@ -15,8 +15,23 @@
     "remix-auth",
     "auth",
     "authentication",
-    "strategy"
+    "strategy",
+    "twitch"
   ],
+  "description": "A TwitchStrategy for Remix Auth, based on the OAuth2Strategy",
+  "author": {
+    "name": "Sam Gibbs",
+    "email": "sam-gibbs1@hotmail.co.uk",
+    "url": "https://github.com/03gibbss/"
+  },
+  "repository": {
+    "url": "https://github.com/03gibbss/remix-auth-twitch",
+    "type": "git"
+  },
+  "homepage": "https://github.com/03gibbss/remix-auth-twitch",
+  "bugs": {
+    "url": "https://github.com/03gibbss/remix-auth-twitch/issues"
+  },
   "license": "MIT",
   "files": [
     "build",
@@ -48,10 +63,11 @@
     "jest-fetch-mock": "^3.0.3",
     "prettier": "^2.3.2",
     "react": "^17.0.2",
-    "ts-node": "^9.1.1",
+    "ts-node": "^10.8.0",
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "remix-auth": "^3.0.0"
+    "remix-auth": "^3.0.0",
+    "remix-auth-oauth2": "^1.2.2"
   }
 }
