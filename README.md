@@ -15,10 +15,16 @@ The Twitch strategy is used to authenticate users against a Twitch account. It e
 
 Follow the steps on [the Twitch documentation](https://dev.twitch.tv/docs/authentication/register-app) to create a new application and get a client ID and secret.
 
+### Install via npm
+
+```tsx
+npm i @03gibbss/remix-auth-twitch
+```
+
 ### Create the strategy instance
 
 ```ts
-import { TwitchStrategy } from "remix-auth-twitch";
+import { TwitchStrategy } from "@03gibbss/remix-auth-twitch";
 
 let twitchStrategy = new TwitchStrategy(
   {
